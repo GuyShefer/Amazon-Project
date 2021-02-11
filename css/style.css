@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+.header {
+    width: 100%;
+    height: 99px;
+}
+
+.header .nav-belt {
+    height: 60px;
+    background: #131921;
+}
+
+
+.header .nav-main {
+    height: 39px;
+    background: #232f3e;
+}
