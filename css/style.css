@@ -4,6 +4,17 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "Amazon Ember";
+    src: url("fonts/Amazon-Ember-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
 
 /* Header */
 .header {
@@ -46,10 +57,8 @@
 
 /* should be in the utils? */
 .nav-logo-link:hover {
-    padding: 0 7px 0 5px;
-    border: 1px solid;
+    border: 1px solid #fff;
     border-radius: 2px;
-    border-color: #fff;
     outline: 0;
 }
 
@@ -76,7 +85,6 @@
     width: 88.64px;
     height: 50px;
     display: inline-block;
-    border: 1px solid #fff;
     display: flex;
  }
 
@@ -96,6 +104,161 @@
  .header .nav-belt .nav-left .nav-global-location .nav-logo-link .deliver-info {
      margin-left: 3px;
      width: 52.638px;
+     margin-top: 4px;
  }
 
- 
+ .header .nav-belt .nav-left .nav-global-location .nav-logo-link .deliver-info .nav-line-1,
+ .header .nav-belt .nav-left .nav-global-location .nav-logo-link .deliver-info .nav-line-2 {
+     font-family: 'Amazon Ember', Arial, sans-serif;
+ }
+
+ .header .nav-belt .nav-left .nav-global-location .nav-logo-link .deliver-info .nav-line-1 {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+ }
+
+ .header .nav-belt .nav-left .nav-global-location .nav-logo-link .deliver-info .nav-line-2 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    height: 15.4px;
+ } 
+
+ /* Nav fill */
+
+ .nav-fill {
+    display: flex;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 100%;
+ }
+
+ .nav-fill .nav-search {
+    padding: 10px 4px 10px 3px;
+ }
+
+ .nav-fill .nav-search .nav-search-bar {
+     display: flex;
+ }
+
+ .nav-fill .nav-search .nav-sreach-left {
+     background: #f3f3f3;
+     width: 52px;
+     height: 40px;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     position: relative;
+ }
+
+ .nav-fill .nav-search .nav-sreach-left .nav-search-label {
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    font-size: 11px;
+    color: #555;;
+}
+
+ .nav-fill .nav-search .nav-sreach-left .nav-icon {
+    background: url(/img/select-arrow.svg);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+ }
+
+/*  */
+
+.nav-fill .nav-sreach-fill {
+    display: flex;
+    -webkit-flex: 1 1 0px;
+    flex: 1 1 0px;
+    height: 40px;
+    width: 300px;
+    background: #fff;
+}
+
+.nav-fill .nav-sreach-fill input {
+    width: 100%;
+    border: none;
+    margin-left: 10px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #111111;
+    font-style: 'Amazon Ember', Arial, sans-serif;
+}
+
+.nav-fill .nav-sreach-fill input:focus {
+    outline: none;
+}
+
+/*  */
+
+.nav-sreach-right {
+    width: 45px;
+    height: 40px;
+    background: #febd69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+}
+
+.nav-sreach-right:hover {
+    background: #f3a847;
+
+}
+
+.fas {
+    font-weight: 600;
+    width: 45px;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 6px;
+    color: black;
+}
+
+/* Nav Right */
+
+.nav-right {
+    height: 60px;
+    width: 365px;
+}
+
+.nav-right .nav-language .nav-logo-link {
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+    width: 55px;
+    height: 50px;
+    display: inline-block;
+    display: flex;
+    position: relative;
+}
+
+.nav-right .nav-language .nav-logo-link:hover {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    outline: 0;
+}
+
+.nav-right .nav-language .nav-logo-link .nav-usa-icon {
+    background: url(/img/usa.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    z-index: 10;
+}
+
+.nav-right .nav-language .nav-logo-link img {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 22px;
+    top: 20px;
+ }
