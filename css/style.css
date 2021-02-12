@@ -11,13 +11,91 @@
     height: 99px;
 }
 
-.header .nav-belt {
-    height: 60px;
-    background: #131921;
-}
-
-
 .header .nav-main {
     height: 39px;
     background: #232f3e;
 }
+
+.header .nav-belt {
+    height: 60px;
+    background: #131921;
+    display: flex;
+}
+
+/* Nav Left */
+.header .nav-belt .nav-left {
+    width: 216.637px;
+    height: 60px;
+    display: flex;
+}
+
+.header .nav-belt .nav-left .nav-logo {
+    width: 113px;
+    height: 60px;
+    padding-top: 4px;
+    margin-left: 11px;
+}
+
+.header .nav-belt .nav-left .nav-logo .nav-logo-link {
+    padding: 1px 8px 0 6px;
+    margin: 1px;
+    width: 111px;
+    height: 50px;
+    display: inline-block;
+}
+
+/* should be in the utils? */
+.nav-logo-link:hover {
+    padding: 0 7px 0 5px;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #fff;
+    outline: 0;
+}
+
+.header .nav-belt .nav-left .nav-logo .nav-logo-link .nav-logo-base {   
+    margin-top: 12px;
+    width: 97px;
+    height: 30px;
+    text-indent: -500px;
+    background-position: -10px -51px;
+    display: inline-block;
+}
+
+.header .nav-belt .nav-left .nav-logo .nav-logo-link .nav-logo-base img {
+    height: 30px;
+    width: 97px;
+    display: block;
+}
+
+/* location */
+
+ .header .nav-belt .nav-left .nav-global-location .nav-logo-link {
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+    width: 88.64px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #fff;
+    display: flex;
+ }
+
+ .header .nav-belt .nav-left .nav-global-location .nav-logo-link .location-icon {
+    background-position: -71px -378px;
+    width: 15px;
+    height: 18px;
+    margin-top: 18px;
+
+ }
+
+ .header .nav-belt .nav-left .nav-global-location .nav-logo-link .location-icon img {
+     width: 15px;
+     height: 18px;
+ }
+
+ .header .nav-belt .nav-left .nav-global-location .nav-logo-link .deliver-info {
+     margin-left: 3px;
+     width: 52.638px;
+ }
+
+ 
