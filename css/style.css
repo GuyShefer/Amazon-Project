@@ -454,3 +454,184 @@ body {
     margin-left: 2px;
 }
 
+/* Main */
+
+.main {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1500px;
+    height: 200vh;
+    /* background-color: #fff; */
+    /* background: lightskyblue */
+}
+
+.main .wayfinding-breadcrumbs_container {
+    padding: 0 16px;
+    margin-top: 8px;
+}
+
+.main .wayfinding-breadcrumbs_container .a-item {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+}
+
+.main .wayfinding-breadcrumbs_container .a-item a {
+    color: #565959;
+    text-decoration: none;
+}
+
+.main .wayfinding-breadcrumbs_container .a-item a:hover {
+    text-decoration: underline;
+}
+
+/* Main container */
+
+.main .a-container {
+    margin-top: 20px;
+    padding-top: 0;
+    min-width: 996px;
+    padding: 0 18px 18px;
+    height: 2500px;
+    display: flex;
+}
+
+.main .a-container .left-column {
+    width: 658.8px;
+    height: 654px;
+    border: 1px solid black;
+}
+
+.main .a-container .center-column {
+    width: 513.25px;
+    height: 384px;
+    border: 1px solid black;
+}
+
+.main .a-container .right-column {
+    width: 244px;
+    height: 1136.65px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+/* Left Column */
+
+.main .a-container .left-column .a-section {
+    padding-bottom: 22px;
+    height: 100%;
+    display: flex;
+}
+
+.main .a-container .left-column .a-section .left-side {
+    width: 40px;
+    height: 100%;
+}
+
+.main .a-container .left-column .a-section .right-side {
+    padding-left: 4px;
+    width: 100%;
+    padding-top: 85%;
+    position: relative;
+}
+
+.main .a-container .left-column .a-section .left-side ul {
+    height: 100%;
+    list-style: none;
+}
+
+.main .a-container .left-column .a-section .left-side ul li {
+    width: 40px;
+    height: 42px;
+    margin-bottom: 8px;
+    position: relative;
+    
+}
+.main .a-container .left-column .a-section .left-side ul li a {
+    border: 1px solid #a2a6ac;
+    border-radius: 2px;
+}
+
+.main .a-container .left-column .a-section .left-side ul li a:hover {
+    border-color: #e77600;
+}
+
+.main .a-container .left-column .a-section .left-side ul li .box-1,
+.main .a-container .left-column .a-section .left-side ul li .box-2,
+.main .a-container .left-column .a-section .left-side ul li .box-3{
+    background: url(/img/thumbnail-1.jpg) no-repeat center center/cover;
+    background-size: 40px;
+    width: 40px;
+    height: 42px;
+    position: absolute;
+}
+
+.main .a-container .left-column .a-section .left-side ul li .box-1 {
+    z-index: 5;
+}
+
+.main .a-container .left-column .a-section .left-side ul li .box-2 {
+    background: url(/img/thumbnail-2.jpg) no-repeat center center/cover;
+}
+
+.main .a-container .left-column .a-section .left-side ul li .box-3 {
+    background: url(/img/thumbnail-3.jpg) no-repeat center center/cover;
+}
+
+.main .a-container .left-column .a-section .right-side .canvas {
+    width: 100%;
+    padding-top: 90%;
+    position: absolute;
+    top: 0;
+}
+
+.main .a-container .left-column .a-section .right-side .canvas-caption {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+}
+
+.main .a-container .left-column .a-section .left-side ul li .box-1::after {
+    content: '';
+    background: url(/img/img-1.jpg) no-repeat center center/cover;
+    background-size: 100%;
+    width: 400px;
+    height: 400px;
+    top: 4px;
+    left: 60px;
+    position: absolute;
+}
+
+.main .a-container .left-column .a-section .left-side ul li .box-2::after {
+    content: '';
+    background: url(/img/img-2.jpg) no-repeat center center/cover;
+    background-size: 105%;
+    width: 400px;
+    height: 400px;
+    top: -45px;
+    left: 60px;
+    position: absolute;
+}
+
+.main .a-container .left-column .a-section .left-side ul li .box-3::after {
+    content: '';
+    background: url(/img/img-3.jpg) no-repeat center center/cover;
+    background-size: 100%;
+    width: 400px;
+    height: 400px;
+    top: -95px;
+    left: 60px;
+    position: absolute;
+}
+
+.main .a-container .left-column .a-section .left-side ul li .box-1:hover::after, 
+.main .a-container .left-column .a-section .left-side ul li .box-2:hover::after, 
+.main .a-container .left-column .a-section .left-side ul li .box-3:hover::after {
+    z-index: 10;
+}
+
+/* Center Column */
+
