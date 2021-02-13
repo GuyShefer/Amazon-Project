@@ -1250,11 +1250,13 @@ color: #e47911
     top: 670px;
 }
 
-.bought-together .a-divider {
+.bought-together .a-divider,
+.carousel .a-divider {
     width: 1180px;
 }
 
-.bought-together h2 {
+.bought-together h2,
+.carousel h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -1328,4 +1330,72 @@ color: #e47911
 
 .price-box .button-small #second-btn {
     background: #eff1f3;
+}
+
+.bought-together .details-link {
+    padding: 18px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0f1111;
+}
+
+.bought-together .details-link p {
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    margin-left: 5px;
+}
+
+.bought-together .details-link a {
+    position: relative;
+    bottom: 4px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.bought-together .details-link a:hover {
+    text-decoration: underline;
+    color: #C7511F;
+}
+
+.bought-together .checkbox-list {
+    list-style: none;
+    padding-left: 18px;
+}
+
+.bought-together .checkbox-list li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f1111;
+}
+
+.bought-together .checkbox-list li a {
+    text-decoration: none;
+    color: #007185;
+}
+
+.bought-together .checkbox-list li a:hover {
+    text-decoration: underline;
+    color: #C7511F;
+}
+
+.bought-together .checkbox-list li #red-color {
+    color: #B12704
+}
+
+/* carousel section */
+
+.a-container .carousel {
+    height: 350px;
+    width: 1464px;
+    border: 1px solid purple;
+    position: absolute;
+    top: 1000px
+}
+
+.a-container .carousel .a-carousel-controller {
+    width: 1180px;
+    height: 284px;
+    border: 1px solid #B12704;
 }
