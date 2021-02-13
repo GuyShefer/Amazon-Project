@@ -808,13 +808,12 @@ body {
 .right-column .a-box-inner {
     padding: 14px 18px;
     width: 100%;
-    height: 502px;
+    height: 522px;
     border-radius: 8px;
     border: 1px solid #D5D9D9;
 }
 
 .right-column .a-box-inner .a-section {
-    border: 1px solid green;
     height: 100%;
 }
 
@@ -923,5 +922,106 @@ body {
 .right-column .btn-box .buy-now {
     background: url(/img/buynow.png) no-repeat center center/cover;
     background-size: 100%;
+}
+
+.right-column .secure {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #007185;
+}
+
+.right-column .secure img {
+    width: 12px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.right-column .ship {
+    margin-top: 10px;
+}
+
+.right-column .seller {
+    margin-bottom: 10px;
+}
+
+.right-column .ship ,
+.right-column .seller{
+    font-size: 12px;
+    line-height: 16px;
+    color: #565959;
+}
+
+.right-column .ship span {
+    color: #0f1111;
+}
+
+.right-column .seller a, 
+.right-column .deliver a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.right-column .deliver a:hover {
+    color: #C7511F;
+}
+
+.right-column .seller a:hover {
+    text-decoration: underline;
+    color: #C7511F;
+}
+
+.right-column .checkbox .a-checkbox-label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f1111;
+}
+
+.right-column .a-divider-normal {
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-width: 0;
+    border-top: 1px solid #e7e7e7;
+    line-height: 19px;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.right-column .deliver {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 2px;
+}
+
+.right-column .deliver a {
+    margin-left: 5px;
+}
+
+.right-column .deliver img {
+    margin-left: 2px;
+}
+
+.right-column .add-button {
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 10px;
+    height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    color: #111;
+    font-size: 13px;
+    border-radius: 3px;
+    background: #eff1f3;
+    border: 1px solid #adb1b8 ;
+}
+
+.right-column .add-button:hover {
+    border-color: #a2a6ac #979aa1 #82858a;
+    background: #e0e3e8;;
 }
 
