@@ -532,6 +532,7 @@ body {
 .main .a-container .left-column .a-section .right-side {
     padding-left: 4px;
     width: 100%;
+    min-width: 450px;
     padding-top: 85%;
     position: relative;
 }
@@ -599,7 +600,7 @@ body {
     background: url(/img/img-1.jpg) no-repeat center center/cover;
     background-size: 100%;
     width: 400px;
-    height: 400px;
+    height: 400px; 
     top: 4px;
     left: 60px;
     position: absolute;
@@ -635,3 +636,162 @@ body {
 
 /* Center Column */
 
+.center-column h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0f1111;
+}
+
+.center-column .tiny-a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.center-column .tiny-a:hover {
+    text-decoration: underline;
+    color: #c7511f;
+}
+
+.center-column .avg-customers-review {
+    line-height: 20px;
+    display: flex;
+    position: relative;
+    height: 20px;
+}
+
+.center-column .customers-stars {
+    background: url(/img/5stars.png) no-repeat center center/cover;
+    background-size: 100%;
+    width: 80px;
+    height: 35px;
+    top: -20px;
+    position: relative;
+}
+
+.center-column .tiny-arrow-down {
+    background: url(/img/tiny-arrow-down.png) no-repeat center center/cover;
+    background-size: 77%;
+    width: 10px;
+    height: 33px;
+    top: -10px;
+    left: 10px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.center-column hr {
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-width: 0;
+    border-top: 1px solid #e7e7e7;
+    line-height: 19px;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.center-column .price {
+    display: flex;
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+.center-column .price .title,
+.center-column .color .title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+    padding-right: 3px;
+}
+
+.center-column .price .price-Number {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #b12704;
+}
+
+.center-column .price p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+    margin-top: 3px;
+}
+
+.center-column .color .button {
+    position: relative;
+    margin-top: 5px;
+}
+
+.center-column .color button {
+    height: 29px;
+    padding-right: 26px;
+    width: 160.075px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 0;
+    font-size: 13px;
+    outline: 0;
+    border: 1px solid #ADB1B8;
+    border-radius: 7px;
+    color: #111;
+    background: #F0F2F2;
+    box-shadow: 0 2px 5px rgb(15 17 17 / 15%);
+}
+
+.center-column .color .button .select-arrow {
+    background: url(/img/tiny-arrow-down.png) no-repeat center center/cover;
+    background-size: 55%;
+    width: 25px;
+    height: 25px;
+    top: 1px;
+    position: absolute;
+}
+
+.center-column .feature-bullets {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.center-column .feature-bullets ul {
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.center-column .feature-bullets ul li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f1111;
+}
+
+.center-column .a-spacing-small {
+    margin: 8px 0;
+}
+
+.a-spacing-small #spacing-small {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.a-spacing-small #spacing-small span:first-child {
+    color: #007185;
+}
+.a-spacing-small #spacing-small span:last-child {
+    color: #B12704;
+}
+
+.a-spacing-small #spacing-small:hover span:first-child, 
+.a-spacing-small #spacing-small:hover span:last-child {
+    color: #C7511F;
+    text-decoration: underline;
+}
